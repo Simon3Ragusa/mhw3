@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mhw3</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src = "script.js" defer = "true"></script>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <h1 id = 'header'>Ricerca film</h1>
+
+        <form>
+            <label>Tipo ricerca: <select name = 'tipo' id = 'tipo'>
+                <option value = 'movie'>FILM</option>
+            </select></label>
+
+            <label>&nbsp;Ricerca: <input type = "text" id = "content"></label>
+
+            <label>&nbsp;<input class = 'submit' type = 'submit'></label>
+        </form>
+
+        <section id = 'view'></section>
+
+        <section id = "focus" class = "hidden">
+            <img src = 'x.png' id = goBack>
+            <div id = 'media'></div>
+
+            <div id = 'description'></div>
+		</section>
+    </body>
+</html>
